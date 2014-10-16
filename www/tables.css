@@ -1,0 +1,87 @@
+<style>
+#box-table-a
+{
+    margin: 0px;
+    text-align: left;
+    border-collapse: collapse;
+}
+#box-table-a th {
+    padding: 8px;
+}
+#box-table-a td
+{
+    padding: 8px;
+}
+
+#box-table-b
+{
+    margin: 0px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    border-style: hidden;
+    /*
+    border-top: 7px solid #9baff1;
+    border-bottom: 7px solid #9baff1;
+    */
+}
+#box-table-b th
+{
+    width: 28%;
+    padding: 8px;
+    text-align: center;
+    background: #e8edff;
+    border-right: hidden;
+    /*
+    border-right: 1px solid #9baff1;
+    border-left: 1px solid #9baff1;
+    */
+    color: #039;
+}
+#box-table-b td
+{
+    padding: 8px;
+    background: #e8edff; 
+    border-style: hidden;
+    color: #669;
+    vertical-align: top;
+}
+#box-table-b tr {
+    border-style: hidden;
+}
+
+#no-border-table
+{
+    margin: 0px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    border-style: hidden;
+}
+#no-border-table th
+{
+    padding: 8px;
+    text-align: center;
+    border-style: hidden;
+    color: #039;
+}
+#no-border-table td
+{
+    padding: 8px;
+    border-style: hidden;
+    /*
+    border-right: 1px solid #aabcfe;
+    border-left: 1px solid #aabcfe;
+    border-top: 0px solid #9baff1;
+    border-bottom: 0px solid #9baff1;
+    */
+    color: #669;
+}
+#no-border-table tr {
+    /*
+    border-top: 0px solid #9baff1;
+    border-bottom: 0px solid #9baff1;
+    */
+    border-style: hidden;
+}
+</style>
